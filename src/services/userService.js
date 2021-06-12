@@ -4,7 +4,7 @@ export class userService {
 
     static loginUser(data) {
         return new Promise((resolve, reject) => {
-            axios.post("http://localhost:8000/api/signin", data)
+            axios.post("https://mern-login-be.herokuapp.com/api/signin", data)
                 .then((response) => {
                     resolve(response.data)
                 })
@@ -16,7 +16,7 @@ export class userService {
 
     static otpVerification(data) {
         return new Promise((resolve, reject) => {
-            axios.post("http://localhost:8000/api/verifyOTP", data)
+            axios.post("https://mern-login-be.herokuapp.com/api/verifyOTP", data)
                 .then((response) => {
                     resolve(response.data)
                 })
@@ -28,7 +28,7 @@ export class userService {
 
     static register(data) {
         return new Promise((resolve, reject) => {
-            axios.post("http://localhost:8000/api/signup", data)
+            axios.post("https://mern-login-be.herokuapp.com/api/signup", data)
                 .then((response) => {
                     resolve(response.data)
                 })

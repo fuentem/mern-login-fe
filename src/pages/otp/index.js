@@ -51,7 +51,7 @@ class OTPVerification extends Component {
                     <Form.Item name={['otp']} rules={[{ required: true }]}> 
                         <Input placeholder="XXXXXX" className="form-control"/>
                     </Form.Item>
-                    <Form.Item className="form-group">
+                    <Form.Item className="form-group" style={{marginTop:20}}>
                         <button className="btn btn-primary">
                             Submit
                         </button>

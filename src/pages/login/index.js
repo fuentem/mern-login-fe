@@ -46,7 +46,7 @@ class Login extends Component {
                         <Input type="password" placeholder="Password"  className="form-control"/>
                     </Form.Item>
 
-                    <Form.Item className="form-group">
+                    <Form.Item className="form-group" style={{marginTop:20}}>
                         <button className="btn btn-primary">
                             Login
                         </button>

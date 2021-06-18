@@ -37,7 +37,7 @@ class Home extends Component {
                 <textarea id="token" rows="5" cols="60">
                 {token}
                 </textarea>
-                <button onClick={this.goToLogin} className="btn btn-primary">Logout</button>
+                <button onClick={this.goToLogin} style={{marginTop:20}} className="btn-margin btn btn-primary">Logout</button>
             </div>
         )
     }

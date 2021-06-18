@@ -5,6 +5,7 @@ import { withRouter } from 'react-router-dom'
 import { Link } from 'react-router-dom';
 import { clearErrorHeader } from '../../actions/userActions'
 
+import './index.less';
 class Home extends Component {
 
     constructor() {
